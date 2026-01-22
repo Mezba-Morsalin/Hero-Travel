@@ -196,7 +196,7 @@ body {
 }
 .deal-box{
     max-width: 600px;
-    background: rgba(255, 255, 255, 0.707);
+    background: rgba(255, 255, 255, 0.77);
     backdrop-filter: blur(2px);
     padding: 50px;
     border-radius: 16px;
