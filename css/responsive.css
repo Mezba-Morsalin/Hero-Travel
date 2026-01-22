@@ -2,6 +2,7 @@
     .navbar {
         width: 90%;
         margin: 0 auto;
+        align-items: center;
     }
     .nav-link {
         display: none;
@@ -26,5 +27,15 @@
     .form {
         width: 100%;
         flex-direction: column;
+    }
+    .popular-section {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 80px;
+        flex-direction: column;
+    }
+    .popular-content {
+        width: 90%;
+        margin: 0 auto;
     }
 }

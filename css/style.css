@@ -89,3 +89,7 @@ body {
     padding: 12px 16px  !important;
     display: block;
 }
+/* Popular Section */
+.popular-section {
+    margin-top: 100px;
+}
