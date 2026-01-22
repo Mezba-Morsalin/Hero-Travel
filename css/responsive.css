@@ -38,4 +38,19 @@
         width: 90%;
         margin: 0 auto;
     }
+    .destination-section {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+    .destination-description {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .destination-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .box-1, .box-2, .box-3, .box-4, .box-5, .box-6, .box-7 {
+        grid-column: span 1;
+    }
 }
