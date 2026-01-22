@@ -1,7 +1,10 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+} */
+body {
     font-family: "Mulish", sans-serif;
 }
 /* Shared Items */
@@ -36,5 +39,28 @@
 }
 .btn-primary:hover {
     background-color: transparent;
+    color: #FF5400;
+}
+/* Navbar */
+.lav-logo-heading {
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.lav-logo-heading span {
+    color: #FF5400;
+}
+.nav-links {
+    font-size: 1.125rem;
+    color: rgba(66, 66, 71, 1);
+    transition: 0.3s;
+}
+.nav-links:hover {
+    color: #FF5400;
+}
+.fa-bars {
+    display: none !important;
+    transition: 0.3s;
+}
+.fa-bars:hover {
     color: #FF5400;
 }

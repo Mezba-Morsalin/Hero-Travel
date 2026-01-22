@@ -1,0 +1,13 @@
+@media screen and (max-width: 576px) {
+    .navbar {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .nav-link {
+        display: none;
+    }
+    .fa-bars {
+        display: block !important;
+        cursor: pointer;
+    }
+}
