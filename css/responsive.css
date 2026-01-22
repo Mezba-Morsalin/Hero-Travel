@@ -69,4 +69,20 @@
     .choose-container {
         flex-direction: column;
     }
+    .deal-section {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+    .deal-container-1 {
+        min-height: 80vh;
+        padding: 30px
+    }
+    .deal-container-2 {
+        min-height: 80vh;
+        padding: 30px
+    }
+    .deal-flex {
+        flex-wrap: wrap;
+    }
 }

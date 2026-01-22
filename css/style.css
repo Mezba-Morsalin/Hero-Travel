@@ -172,3 +172,40 @@ body {
     border-radius: 16px;
     padding: 32px;
 }
+/* Deal Section */
+.deal-section {
+    margin-top: 100px;
+}
+.deal-container-1{
+    background: url(../img/deal-1.png);
+    min-height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    padding-right: 80px;
+}
+.deal-container-2{
+    background: url(../img/deal-2.png);
+    min-height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    padding-left: 80px;
+}
+.deal-box{
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.707);
+    backdrop-filter: blur(2px);
+    padding: 50px;
+    border-radius: 16px;
+}
+.deal-icon {
+    color: #FF5400;
+}
+.price {
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
