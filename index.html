@@ -19,7 +19,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
+    <!-- Header Section -->
     <header>
+        <!-- Navbar -->
         <nav class="navbar container flex justify-between items-center pt-6">
             <div class="nav-logo flex items-center gap-4">
                 <img src="./img/logo.png" alt="Navbar Logo">
@@ -35,5 +37,26 @@
             <i class="fa-solid fa-bars"></i>
         </nav>
     </header>
+    <!-- Header Section Ended -->
+    <main>
+        <section class="banner-section container rounded-xl flex justify-center items-center flex-col gap-16">
+            <div class="banner-content w-2xl text-center">
+                <h1 class="banner-heading mb-4">Explore Your Travel</h1>
+                <p class="text-base text-white banner-description">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+            </div>
+            <form class="flex gap-6  rounded-lg form">
+                <input class="text rounded-lg" type="text" placeholder="Where go">
+                <select class="select rounded-lg" name="" id="">
+                    <option value="When">When</option>
+                    <option value="Then">Then</option>
+                </select>
+                <select class="select rounded-lg" name="" id="">
+                    <option value="When">Select Type</option>
+                    <option value="Then">Then</option>
+                </select>
+                <button class="btn-primary inline-flex items-center gap-2"><i class="fa-solid fa-magnifying-glass"></i>Find Now</button>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
