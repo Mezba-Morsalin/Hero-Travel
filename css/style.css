@@ -144,4 +144,31 @@ body {
     grid-column: span 7;
     position: relative;
 }
-   
+  /* Choose Section */
+.choose-section {
+    margin-top: 100px;
+}
+.choose-container {
+    margin-top: 50px;
+}
+.choose-1 {
+    background-color: #fffbf7;
+    border: 1px solid #feedd9;
+    border-radius: 16px;
+    padding: 32px;
+}
+.choose-2 {
+    background-color: #f4fdff;
+    border: 1px solid #cbf4fd;
+    border-radius: 16px;
+    padding: 32px;
+}
+.choose-container-2 {
+    margin-top: 25px;
+}
+.choose-3 {
+    background-color: #fef6f6;
+    border: 1px solid #fad2d2;
+    border-radius: 16px;
+    padding: 32px;
+}
