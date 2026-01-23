@@ -85,16 +85,29 @@
     .deal-flex {
         flex-wrap: wrap;
     }
-    .perfect-section {
+    .perfect-section, .newsletter-section {
         flex-direction: column;
         width: 90%;
         margin: 0 auto;
         margin-top: 80px;
     }
-    .perfect-content {
+    .perfect-content, .newsletter-form , .newsletter-img{
         width: 100%;
+    }
+    .newsletter-img img {
+        min-height: 350px;
     }
     .perfect-video {
         width: 100%;
+    }
+    .offer {
+        top: 160px;
+        right: 20px;
+    }
+    .offer-1 {
+        font-size: 1rem;
+    }
+    .offer-2 {
+        font-size: 1.5rem;
     }
 }

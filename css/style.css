@@ -223,3 +223,41 @@ body {
     display: block;
     border-radius: 20px;
 }
+/* Newsletter Section */
+.newsletter-section {
+    margin-top: 100px;
+}
+.newsletter-form {
+    width: 40%;
+    border: 2px solid #FF5400;
+    border-radius: 16px;
+}
+.input-text {
+    background-color: #f3f3f3;
+    padding: 16px 20px;
+    border-radius: 8px;
+    outline: none;
+}
+.newsletter-img {
+    width: 60%;
+    position: relative;
+}
+.newsletter-img img {
+    width: 100%;
+}
+.newsletter-form hr{
+    border: none;
+    height: 2px;
+    background: #f3f3f3;
+    margin-bottom: 26px;
+}
+.offer {
+    background-color: #FF5400;
+    text-align: center;
+    position: absolute;
+    top :220px;
+    right: 20px;
+    padding: 35px 45px;
+    transform: rotate(-30deg);
+    border-radius: 20px;
+}
