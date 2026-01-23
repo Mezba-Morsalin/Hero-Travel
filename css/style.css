@@ -36,17 +36,18 @@ body {
     border-radius: 8px;
     border: 2px solid #FF5400;
     transition: 0.3s;
+    cursor: pointer;
 }
 .btn-primary:hover {
     background-color: transparent;
     color: #FF5400;
 }
 /* Navbar */
-.lav-logo-heading {
+.nav-logo-heading {
     font-size: 2.25rem;
     font-weight: 800;
 }
-.lav-logo-heading span {
+.nav-logo-heading span {
     color: #FF5400;
 }
 .nav-links {
@@ -245,7 +246,7 @@ body {
 .newsletter-img img {
     width: 100%;
 }
-.newsletter-form hr{
+.hr-1{
     border: none;
     height: 2px;
     background: #f3f3f3;
@@ -260,4 +261,23 @@ body {
     padding: 35px 45px;
     transform: rotate(-30deg);
     border-radius: 20px;
+}
+/* Footer Section */
+.footer-section {
+    margin-top: 130px;
+    background-color: #f3f3f3;
+}
+.footer-container {
+    max-width: 770px;
+    margin: 0 auto;
+    padding: 80px 0 50px 0 ;
+}
+.footer-link {
+    color: #131318;
+    font-size: 1.5rem;
+}
+.hr-2 {
+    border: none;
+    background: #FF5400;
+    height: 2px;
 }
