@@ -85,4 +85,16 @@
     .deal-flex {
         flex-wrap: wrap;
     }
+    .perfect-section {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+    .perfect-content {
+        width: 100%;
+    }
+    .perfect-video {
+        width: 100%;
+    }
 }

@@ -209,3 +209,17 @@ body {
     font-size: 1.25rem;
     font-weight: 800;
 }
+/* Perfect Section */
+.perfect-section {
+    margin-top: 100px;
+}
+.perfect-video {
+    overflow: hidden;
+    width: 50%;
+}
+.perfect-video iframe {
+    width:100%;
+    min-height: 400px;
+    display: block;
+    border-radius: 20px;
+}
